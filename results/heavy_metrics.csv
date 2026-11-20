@@ -1,0 +1,10 @@
+model,condition,auroc_mean,auroc_ci95_low,auroc_ci95_high,brier_mean
+logistic_baseline,in_distribution,0.879248,0.861849,0.896647,0.132055
+logistic_baseline,scanner_shift_moderate,0.865781,0.851367,0.880196,0.142610
+logistic_baseline,scanner_shift_severe,0.835715,0.823259,0.848170,0.169661
+nonlinear,in_distribution,0.863208,0.848905,0.877511,0.140687
+nonlinear,scanner_shift_moderate,0.853451,0.839669,0.867234,0.150132
+nonlinear,scanner_shift_severe,0.821519,0.808750,0.834287,0.175749
+robust_calibrated,in_distribution,0.875245,0.856864,0.893625,0.137660
+robust_calibrated,scanner_shift_moderate,0.866297,0.850951,0.881642,0.140295
+robust_calibrated,scanner_shift_severe,0.838813,0.826065,0.851561,0.156966
